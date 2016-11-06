@@ -7,7 +7,7 @@
 # DigitalKeyboard
 A elegant textField
 ##### :eyes: See also:
-![display](iphone 6s](https://cloud.githubusercontent.com/assets/8440220/20038344/f082d662-a46c-11e6-9410-22879733be4b.png)
+![display](https://cloud.githubusercontent.com/assets/8440220/20038344/f082d662-a46c-11e6-9410-22879733be4b.png)
 
 ![](https://cloud.githubusercontent.com/assets/8440220/20038343/f04a87c6-a46c-11e6-9dc0-a6d9c6046fa8.gif) 
 ### CocoaPods
