@@ -3,12 +3,10 @@
 [![CI Status](http://img.shields.io/travis/kishikawakatsumi/IDCardKeyboard.svg?style=flat)](https://travis-ci.org/kishikawakatsumi/IDCardKeyboard)
 [![Version](https://img.shields.io/cocoapods/v/IDCardKeyboard.svg?style=flat)](http://cocoadocs.org/docsets/IDCardKeyboard)
 [![Platform](https://img.shields.io/cocoapods/p/IDCardKeyboard.svg?style=flat)](http://cocoadocs.org/docsets/IDCardKeyboard)
-
-# DigitalKeyboard
 A elegant textField
 ##### :eyes: See also:
 ![display](https://cloud.githubusercontent.com/assets/8440220/20038344/f082d662-a46c-11e6-9410-22879733be4b.png)
-
+### The dynamic gif
 ![](https://cloud.githubusercontent.com/assets/8440220/20038343/f04a87c6-a46c-11e6-9dc0-a6d9c6046fa8.gif) 
 ### CocoaPods
 
