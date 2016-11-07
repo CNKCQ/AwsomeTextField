@@ -58,7 +58,7 @@ Pod::Spec.new do |s|
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― 
-  s.source_files  = "AwsomeTextField", "AwsomeTextField/Class/*.{h,m,swift}"
+  s.source_files  = "AwsomeTextField/Class", "AwsomeTextField/Class/*.{h,m,swift}"
   s.exclude_files = "AwsomeTextField/Exclude"
 
 
