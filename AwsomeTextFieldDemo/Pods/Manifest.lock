@@ -1,0 +1,12 @@
+PODS:
+  - AwsomeTextField (1.0.4)
+
+DEPENDENCIES:
+  - AwsomeTextField
+
+SPEC CHECKSUMS:
+  AwsomeTextField: a1e83c3d939ff0285d6b1c5fc1fe0a9b5a743312
+
+PODFILE CHECKSUM: c31fa069ff8da2ce9cc24b30cedf314da766a3cd
+
+COCOAPODS: 1.2.0.beta.1

@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  AwsomeTextField
+//  AwsomeTextFieldDemo
 //
-//  Created by KingCQ on 2016/11/6.
+//  Created by KingCQ on 2016/11/10.
 //  Copyright © 2016年 KingCQ. All rights reserved.
 //
 
