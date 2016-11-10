@@ -32,17 +32,18 @@ open class AwsomeTextField: UITextField {
     var placeholderLabel = UILabel()
     var shapelayer: CAShapeLayer!
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         placeholderLabel = UILabel(frame: CGRect(x: 10, y: 0, width: bounds.width - 10, height: bounds.height))
         let path = UIBezierPath(roundedRect: bounds, cornerRadius: bounds.height / 4)
         leftViewMode = .always
         leftView = UIView(frame: CGRect(x: 0, y: 0, width: 10, height: 20))
         shapelayer = CAShapeLayer()
+        updateborder()
+        updateplaceholder()
         shapelayer.path = path.cgPath
         self.layer.addSublayer(shapelayer)
         addSubview(placeholderLabel)
-        updateborder()
     }
     
     override open func drawPlaceholder(in rect: CGRect) {
@@ -77,7 +78,7 @@ open class AwsomeTextField: UITextField {
         UIView.animate(withDuration: 0.5) {
             self.placeholderLabel.frame = CGRect(x: self.bounds.height / 2, y: -20, width: 60, height: 44)
             self.placeholderLabel.transform = CGAffineTransform(scaleX: 1, y: self.placeholderFontScale)
-            self.shapelayer.strokeStart = 0.1
+            self.shapelayer.strokeStart = 0.09
             self.shapelayer.strokeEnd = 1
             self.shapelayer.strokeColor = self.activeborderColor.cgColor
         }
@@ -96,3 +97,4 @@ open class AwsomeTextField: UITextField {
         fatalError("init(coder:) has not been implemented")
     }
 }
+

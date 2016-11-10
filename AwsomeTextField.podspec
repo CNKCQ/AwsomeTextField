@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AwsomeTextField"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "it's a custom textField."
 
   # This description is used to generate tags and improve search results.
