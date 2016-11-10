@@ -16,13 +16,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         namefield = AwsomeTextField(frame: CGRect(x: 60, y: 200, width: 320, height: 44))
         namefield.placeholderFontScale = 0.8
-        namefield.placeholder = "姓名"
+        namefield.placeholder = "生份证"
         
         field = AwsomeTextField(frame: CGRect(x: 60, y: 280, width: 320, height: 44))
         field.borderColor = UIColor.black
         field.activeborderColor = UIColor.red
         field.placeholderColor = UIColor.green
-        field.placeholderFontScale = 0.6
+        field.placeholderFontScale = 0.7
         field.placeholder = "手机号"
         
         view.addSubview(namefield)

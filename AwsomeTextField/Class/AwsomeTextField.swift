@@ -42,6 +42,7 @@ open class AwsomeTextField: UITextField {
         shapelayer.path = path.cgPath
         self.layer.addSublayer(shapelayer)
         addSubview(placeholderLabel)
+        updateborder()
     }
     
     override open func drawPlaceholder(in rect: CGRect) {

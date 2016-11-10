@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AwsomeTextField"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "it's a custom textField."
 
   # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/CNKCQ/AwsomeTextField.git"
-  s.screenshots  = "https://cloud.githubusercontent.com/assets/8440220/20038343/f04a87c6-a46c-11e6-9dc0-a6d9c6046fa8.gif"
+  s.screenshots  = "https://cloud.githubusercontent.com/assets/8440220/20137814/c47c9966-a6b7-11e6-850d-03ee6fa42d00.gif"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
