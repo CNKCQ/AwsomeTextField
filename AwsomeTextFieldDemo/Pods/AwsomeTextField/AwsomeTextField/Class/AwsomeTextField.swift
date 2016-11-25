@@ -35,7 +35,7 @@ open class AwsomeTextField: UITextField {
     public override init(frame: CGRect) {
         super.init(frame: frame)
         placeholderLabel = UILabel(frame: CGRect(x: 10, y: 0, width: bounds.width - 10, height: bounds.height))
-        let path = UIBezierPath(roundedRect: bounds, cornerRadius: bounds.height / 4)
+        let path = UIBezierPath(roundedRect: bounds, cornerRadius: bounds.height / 8)
         leftViewMode = .always
         leftView = UIView(frame: CGRect(x: 0, y: 0, width: 10, height: 20))
         shapelayer = CAShapeLayer()
